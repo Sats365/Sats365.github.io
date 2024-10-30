@@ -1,0 +1,88 @@
+@font-face {
+	font-family: "Gilroy-Medium";
+	src: url("/fonts/gilroy-medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Gilroy-Regular";
+	src: url("/fonts/gilroy-regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Gilroy-SemiBold";
+	src: url("/fonts/gilroy-semibold.woff2") format("woff2");
+}
+
+:root {
+	--main-color: #9d291d;
+	/* --main-color: #91291e; */
+	/* --secondary-color: #f0dfd4; */
+	/* --secondary-color: #d49a7b; */
+	--secondary-color: #c4785f;
+	--third-color: #efebe5;
+	--third-color: #f0ece680;
+
+	--color-line: #0000001a;
+
+	--color-text-dark: #252525;
+	--color-background-dark: #252525;
+
+	--color-text-white: #f8f8f8;
+	--color-background-white: #f8f8f8;
+
+	--border-radius: 3px;
+}
+
+html,
+body,
+div#__next,
+input {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 300;
+	overflow-x: hidden;
+	scroll-behavior: auto;
+	color: var(--color-text-dark);
+	font-family: Gilroy-Medium;
+	font-weight: 800;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-display: swap;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+ol {
+	margin-left: 1.2rem;
+}
+
+ul {
+	margin-left: 1rem;
+}
+
+ol ul,
+ul ul,
+ol ol,
+ul ol {
+	margin-left: 2rem;
+}
+
+hr {
+	border: none;
+}
+
+.active-logo:hover {
+	opacity: 0.7;
+}
+

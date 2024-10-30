@@ -1,0 +1,53 @@
+@import "./gilroy.css";
+@import "./vars.css";
+
+html,
+body,
+div#__next,
+input {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 300;
+	overflow-x: hidden;
+	scroll-behavior: auto;
+	color: var(--color-text-dark);
+	font-family: Gilroy-Medium;
+	font-weight: 800;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-display: swap;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+ol {
+	margin-left: 1.2rem;
+}
+
+ul {
+	margin-left: 1rem;
+}
+
+ol ul,
+ul ul,
+ol ol,
+ul ol {
+	margin-left: 2rem;
+}
+
+hr {
+	border: none;
+}
+
+.active-logo:hover {
+	opacity: 0.7;
+}
